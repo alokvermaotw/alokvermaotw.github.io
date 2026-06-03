@@ -1,4 +1,8 @@
-site_name: Alok Knowledgebase
+site_name: Alok Verma | Data Science Portfolio
+site_description: A portfolio showcasing my knowledge and projects in AI, analytics, DevOps and marketing science.
+site_author: Alok Verma
+# site_url: https://alokverma.github.io/
+# repo_url: https://github.com/alokverma/data-science-portfolio
 theme:
   name: material
   features:
@@ -12,9 +16,31 @@ plugins:
 
 nav:
   - Home: index.md
+  - GenAI: 
+      - Overview: genai/genai.md
+      - LLMs: genai/llms.md
+      - Prompt Engineering: genai/prompt_engineering.md
+  - DevOps:
+      - Overview: devops/devops.md
+      - CI/CD: 
+          - Overview: devops/devops.md
+          - CICD: devops/cicd.md
+          - Jenkins: devops/jenkins.md
+          - GitHub Actions: devops/github_actions.md
+      - Containerization: devops/containerization.md
+      - Docker: devops/docker.md
+      - Kubernetes: devops/kubernetes.md
+  - Cloud: 
+      - Overview: cloud/cloud.md
+      - AWS: cloud/aws.md
+      - Azure: cloud/azure.md
+      - GCP: cloud/gcp.md
   - Analytics:
-      - Overview: analytics.md
-      - Descriptive: anlytics/descriptive.md
-      - Inferential: anlytics/inferential.md
-  - ArtificialIntelligence: ArtificialIntelligence/ai.md
-  - MarketingScience: MarketingScience/marketing_science.md
+      - Overview: analytics/analytics.md
+      - Descriptive: analytics/descriptive.md
+      - Inferential: analytics/inferential.md
+  - Marketing Science: 
+      - Overview: marketing_science/marketing_science.md
+      - Attribution: marketing_science/attribution.md
+      - MMM: marketing_science/mmm.md
+      - A/B Testing: marketing_science/ab_testing.md
