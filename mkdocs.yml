@@ -8,3 +8,12 @@ theme:
 plugins:
   - search
   - tags
+
+
+nav:
+  - Home: index.md
+  - Analytics: data_science.md
+    - Descriptive: anlytics/descriptive.md
+    - Inferential: anlytics/inferential.md
+  - Artifical Intelligence: ai.md
+  - Marketing Science: marketing_science.md
