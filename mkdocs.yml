@@ -5,3 +5,6 @@ theme:
     - navigation.tabs # Optional: adds top-level tabs
     - navigation.sections # Groups left nav items
     - toc.integrate # Integrates the right TOC
+plugins:
+  - search
+  - tags
