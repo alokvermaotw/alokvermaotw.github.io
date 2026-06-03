@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: Alok Knowledgebase
+theme:
+  name: material
+  features:
+    - navigation.tabs # Optional: adds top-level tabs
+    - navigation.sections # Groups left nav items
+    - toc.integrate # Integrates the right TOC
