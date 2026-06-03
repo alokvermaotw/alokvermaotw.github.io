@@ -12,8 +12,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - Analytics: analytics.md
-    - Descriptive: anlytics/descriptive.md
-    - Inferential: anlytics/inferential.md
+  - Analytics:
+      - Overview: analytics.md
+      - Descriptive: anlytics/descriptive.md
+      - Inferential: anlytics/inferential.md
   - ArtificialIntelligence: ArtificialIntelligence/ai.md
   - MarketingScience: MarketingScience/marketing_science.md
