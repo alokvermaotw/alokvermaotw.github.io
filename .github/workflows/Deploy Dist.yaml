@@ -9,7 +9,7 @@ jobs:
           echo "Cloning code from repo"
           echo "${{toJson(github)}}"
           git clone https://github.com/${{ github.repository }}.git myfiles
-          cd myfiles && ll
+          cd myfiles && ls -la
 
 
 
