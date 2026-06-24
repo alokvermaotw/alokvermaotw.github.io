@@ -1,6 +1,19 @@
 # Causal Machine Learning
+## History
+- `< 1990s`: Establishment of Tranditional Causal Inference (e.g. Causal Digrams, Potential Outcome Framework) Thanks to the Judea Pearl, Donald Rubin
+- `2000s`: Machine Learning and deep learning technology evolved rapidly with the increase in data volume
+- `2010s`: Fusion of Causal Inference and Machine Learning
+    - New Methods such as `Causal Forest`
+    - `EconML` and `CausalML` package got introduced
 
-## Pre Quick Reads
+## Machine Learning Vs Causal ML
+- `Supervised Machine Learning`/`SML` focuses on *prediction*, while `Causal Machine Learning` / `Causal Inference` / `CML/CI` focuses on *causality*.
+- `purpose`: SML does **prediction based on correlation** while CML does **estimation of treatment effect**
+- `Question`: SML answers questions like *What will customer buy next?* *What is the probability?* while CML answers questions like *Did the coupon increase sales?* *How much was its impact?*
+- `Variables`: SML maps X (Features: age, gender, coupon availablity) with the Target variable like sales while CML works with X (control variables: age, gender), Z (Treatment Variable: Coupon availablity) and Y (Outcome variable: Sales uplift)
+
+
+## Quick Reads
 - `Causal Inference`: The process of determining whether a cause-and-effect relationship exists between `Treatment` and `Outcome`.
 - `Treatment`: Coupons, Advertisement, direct mails, or any other activities.
 - `Outcome`: Purchase, Brand Lift, Conversion Lift
@@ -13,20 +26,6 @@
 - Because of limitations or RCT
 - Because of Simpson's paradox where Overall and subgroups trends different.
 - Because of Confounding variables
-
-## Causal Machine Learning
-### History
-- `< 1990s`: Establishment of Tranditional Causal Inference (e.g. Causal Digrams, Potential Outcome Framework) Thanks to the Judea Pearl, Donald Rubin
-- `2000s`: Machine Learning and deep learning technology evolved rapidly with the increase in data volume
-- `2010s`: Fusion of Causal Inference and Machine Learning
-    - New Methods such as `Causal Forest`
-    - `EconML` and `CausalML` package got introduced
-
-### Machine Learning Vs Causal ML
-- `Supervised Machine Learning`/`SML` focuses on *prediction*, while `Causal Machine Learning` / `Causal Inference` / `CML/CI` focuses on *causality*.
-- `purpose`: SML does **prediction based on correlation** while CML does **estimation of treatment effect**
-- `Question`: SML answers questions like *What will customer buy next?* *What is the probability?* while CML answers questions like *Did the coupon increase sales?* *How much was its impact?*
-- `Variables`: SML maps X (Features: age, gender, coupon availablity) with the Target variable like sales while CML works with X (control variables: age, gender), Z (Treatment Variable: Coupon availablity) and Y (Outcome variable: Sales uplift)
 
 ## Techniques
 ### 1. Meta Learners
