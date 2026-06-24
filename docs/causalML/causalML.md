@@ -1,4 +1,5 @@
 # Causal Machine Learning
+A branch of AI that moves beyond predicting what will happen (correlation) to determining why it happens and what will happen if we intervene (causation). It allows models to simulate "what-if" scenarios, making it ideal for decision-making and optimizing policies.
 ## History
 - `< 1990s`: Establishment of Tranditional Causal Inference (e.g. Causal Digrams, Potential Outcome Framework) Thanks to the Judea Pearl, Donald Rubin
 - `2000s`: Machine Learning and deep learning technology evolved rapidly with the increase in data volume
@@ -39,8 +40,8 @@
 - Because of Confounding variables
 
 ## Techniques
-### 1. [Meta Learners]()
-### 2. [Uplift Modeling]()
+### 1. [Meta Learners](https://alokvermaotw.github.io/causalML/meta_learners/)
+### 2. [Uplift Modeling](https://alokvermaotw.github.io/causalML/uplift_modeling/)
 
 
 ## Useful libraries
@@ -66,8 +67,9 @@
 
 # Reference
 ## Libraries
-- [CausalML]()
-- [EconML]()
+- [CausalML](https://causalml.readthedocs.io/en/latest/about.html)
+- [EconML](https://www.pywhy.org/EconML/)
+- [DoWhy](https://www.pywhy.org/dowhy/v0.14/)
 
 ## Books
 - [Causal Inference and Discovery in Python]()

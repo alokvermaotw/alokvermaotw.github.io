@@ -46,14 +46,14 @@ nav:
   - Machine Learning:
       - Overview: machine_learning/machine_learning.md
       - Supervised:
-          - Overview: machine_learning/Supervised/supervised.md
+          - Overview: machine_learning/supervised/supervised.md
           - Regression: 
-              - Overview: machine_learning/Supervised/regression.md
+              - Overview: machine_learning/supervised/regression.md
           - Classification: 
-              - Overview: machine_learning/Supervised/Classification.md
+              - Overview: machine_learning/supervised/Classification.md
               - Decision Tree Classifier: machine_learning/supervised/classification/decision_tree_classifier.md
       - Unsupervised:
-          - Overview: machine_learning/Supervised/unsupervised.md
+          - Overview: machine_learning/Unsupervised/unsupervised.md
           - Clustering:
               - Overview: machine_learning/unsupervised/clustering/clustering.md
   - CausalML / Causal Inference:
