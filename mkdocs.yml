@@ -1,17 +1,44 @@
 site_name: Alok Verma | Knowledge Base
-site_description: A portfolio showcasing my knowledge and projects in AI, analytics, DevOps and marketing science.
+site_description: A portfolio my knowledge base and projects.
 site_author: Alok Verma
 # site_url: https://alokverma.github.io/
 # repo_url: https://github.com/alokverma/data-science-portfolio
 theme:
   name: material
+  # Color palette configuration
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo # You can change the primary color
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo # You can change the primary color
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.tabs # Optional: adds top-level tabs
     - navigation.sections # Groups left nav items
     # - toc.integrate # Integrates the right TOC
+    - navigation.top
+    - navigation.path
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
 plugins:
   - search
   - tags
+  - mkdocs-jupyter # integrate Jupyter notebooks just like a markdown file
+  - mkdocstrings
+  - blog
+  - social
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -48,12 +75,12 @@ nav:
       - Supervised:
           - Overview: machine_learning/supervised/supervised.md
           - Regression: 
-              - Overview: machine_learning/supervised/regression.md
+              - Overview: machine_learning/supervised/regression/regression.md
           - Classification: 
-              - Overview: machine_learning/supervised/Classification.md
+              - Overview: machine_learning/supervised/classification/classification.md
               - Decision Tree Classifier: machine_learning/supervised/classification/decision_tree_classifier.md
       - Unsupervised:
-          - Overview: machine_learning/Unsupervised/unsupervised.md
+          - Overview: machine_learning/unsupervised/unsupervised.md
           - Clustering:
               - Overview: machine_learning/unsupervised/clustering/clustering.md
   - CausalML / Causal Inference:
@@ -63,6 +90,10 @@ nav:
           - Overview: causalML/uplift_modeling.md
           - Uplift Tree: causalML/uplift_tree.md
           - Uplift Random Forest: causalML/uplift_rf.md              
+  - Deep Learning:
+      - Overview: deep_learning/deep_learning.md
+      - Nerual Networks:
+          - Overview: deep_learning/neural_networks/neural_networks.md
   - GenAI: 
       - Overview: genai/genai.md
       - LLMs: genai/llms.md
