@@ -1,0 +1,1 @@
+Enables the identification of customers who are most likely to respond positively to treatments, thereby improving the marketing ROI.
