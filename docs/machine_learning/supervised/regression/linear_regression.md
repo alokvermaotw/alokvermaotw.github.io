@@ -1,0 +1,32 @@
+- A linear regression fits a straight line to observed data, attempting to demonstrate a linear relationship between variables and make predictions on new data yet to be observed.
+- The Error/Residual is the numeric difference between the line and the points, Points above the line will have a positive residual, and points below the line will have a negative residual. 
+- Minimize the Residuals using _sum of squares_, which simply squares each residual, or multiplies each residual by itself, and sums them. We take each actual y-value and subtract from it the predicted y-value taken from the line, then square and sum all those differences
+- Two somewhat popular variants of linear regression are lasso regression and ridge regression. _Ridge regression_ adds a further bias to a linear regression in the form of a penalty, therefore causing it to fit less to the data. _Lasso regression_ will attempt to marginalize noisy variables, making it useful when you want to automatically remove variables that might be irrelevant.
+- Finding the best fit line:
+	- For finding the best fit line we need to find the best set of parameters of m and b, which are the Coefficient and intercept of the regression line.
+	- There are many Search Algorithms than can be used for this purpose like:
+		- Brute Force: 
+			- it's gonna take infinite time to find the best value of m and b as it will generate millions of random values and then find the sum of squares.
+		- Closed Form equation:
+			- Work only for simple linear regression with only one input variable
+			- $$m = \frac{n\sum(x,y)+\sum(x)\sum(y)}{n\sum(x^2)-\sum(x)^2}$$
+			- $$b = \frac{\sum(y)}{n} - m\frac{\sum(x)}{n}$$
+			 - The closed form equations do not scale well with larger datasets is due to a computer science concept called computational complexity, which measures how long an algorithm takes as a problem size grows.
+		- Matrix Inversion
+		- Matrix Decomposition
+		- Gradient Descent
+			- Gradient descent is an optimization technique that uses derivatives and iterations to minimize/maximize a set of parameters against an objective.
+			- Think we are going bottom of the mountain from top where we step in directions where the slope goes downward.
+			- the partial derivative is that flashlight, allowing us to see the slopes for every parameter (in this case m and b, or β0 and β1).
+			- We can simply calculate the length of this step by taking a fraction of the slope. This fraction is known as our learning rate. The higher the learning rate, the faster it will run at the cost of accuracy. But the lower the learning rate, the longer it will take to train and require more iterations.
+			- 
+		- [[Stochastic Gradient Descent]]
+			- we trained on all training data (called batch gradient descent). In practice, you are more likely to perform stochastic gradient descent, which will train on only one sample of the dataset on each iteration. In mini-batch gradient descent, multiple samples of the dataset are used (e.g., 10 or 100 data points) on each iteration.
+- Assumptions of Linear Regression
+	- Linearity
+- Caveats
+	- we cannot expect that every outcome is going to fall exactly on that line. After all, real-world data is noisy and never perfect and will not follow a straight line.
+	- Never make prediction of data point which is less than of greater than the min and max value of the trained data.
+- Intercept
+	- Represents the mean value of the response variable when all of the predictor variables in the model are equal to zero.
+	- 

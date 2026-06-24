@@ -1,0 +1,4 @@
+- Instead of simply classifying observations into groups, hierarchical clustering yields a nested hierarchy that shows groups of observations in closely related, then successively more distant groups.
+- it creates groups so that objects within a group are similar to each other and different from objects in other groups.
+- Clusters are visually represented in a hierarchical tree called a dendrogram.
+- 

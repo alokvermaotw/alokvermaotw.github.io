@@ -1,0 +1,4 @@
+- approach
+	- Generate clusters of users
+	- Find the most popular items in each cluster of users
+	- Recommend those popular items, but only within each cluster

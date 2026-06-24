@@ -1,0 +1,4 @@
+- This is an item-based recommendation system, but instead of using purchase histories, it uses item attributes to find relevant recommendations.
+- Rely on the analysis of content. For example, to make recommendations about songs on a music-streaming service, you might download a database of song lyrics. You could use some NLP tools to measure the similarity between distinct songs’ lyrics. If a user listened to Song X, you could recommend that they listen to the songs whose lyrics have the highest similarity to Song X’s lyrics.
+- The problem with a content-based approach is that it can be difficult to get attribute data that’s reliable and comparable across items.
+- 

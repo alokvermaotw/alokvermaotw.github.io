@@ -1,0 +1,4 @@
+- aka Sum of squared error
+- Measures the overall error of a linear regression
+- in this we squared each residual and summed them.
+- $$SSE=\sum(y-\hat{y})$$

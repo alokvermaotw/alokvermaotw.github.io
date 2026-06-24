@@ -1,0 +1,3 @@
+- relies on matrix algebra to decompose the interaction matrix into several smaller matrices.
+- These smaller matrices can be multiplied in various ways to predict which products will appeal to which customers.
+- Singular-value decomposition is one of several methods that use linear algebra to predict customer preferences.

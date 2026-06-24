@@ -1,0 +1,7 @@
+- Explains the features that make up the training data using a score (importance)
+- How useful or valuable the feature is relative to other features
+- Predict the sentiment for a product -> which features play a role?
+- Using feature importance we can rank the individual features in terms of their importance score.
+- Feature importance allows you to evaluate how useful or valuable the feature is in relation to the other features that is available in the same dataset.
+- We can calculate the feature importance using an Open Source Framework called [[SHAP]] or [[Amazon Sagemaker]]
+- 

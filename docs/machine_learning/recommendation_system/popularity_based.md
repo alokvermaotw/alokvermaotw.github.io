@@ -1,0 +1,4 @@
+- used in [[RecommendationSystem]]
+- mostly used to recommend trending items and bestsellers.
+- In a popularity-based system, dates or timestamps can enable you to replace all-time most popular lists with today’s most popular lists, or lists that show trending content across the most recent hour, week, or any other time frame.
+- 
