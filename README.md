@@ -1,1 +1,1 @@
-This is my knowledge base hosted and running on (alokvermaotw)[https://alokvermaotw.github.io/]
+This is my knowledge base hosted and running on [alokvermaotw](https://alokvermaotw.github.io/)
