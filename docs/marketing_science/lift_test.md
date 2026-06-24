@@ -13,8 +13,37 @@
 - `Outcome`: Purchase, Brand Lift, Conversion Lift
 - `Selection Bias`: Occurs when the participants or data chosen for a study do not properly represent the intended target population. eg in `Use Case 1` there there might be pitfall of selection bias like Customers who received coupons might have purchased anyway. 
 - `Counter Factual`: We can only observe one outcome from the same individual. so the reality is observed world. and Counterfectual is the Hypothetical world. 
+- `Simpson's Paradox`: A statistical phenomenon where a trend or relationship between two variables reverses or disappears when the data is combined (aggregated) into a single group, but appears in the opposite direction when the data is broken down into smaller groups.
+- `Confounding Variable`: An unmeasured outside factor that influences both the independent and dependent variables. It distorts the true relationship between them, making it falsely appear that one variable causes another when it does not.
 
-`*we have two grups then Why we are not doing [split test](https://alokvermaotw.github.io/marketing_science/split_test/)*  -- because of its limitations.`
+## we have two grups then Why we are not doing [split test](https://alokvermaotw.github.io/marketing_science/split_test/)  
+- Because of limitations or RCT
+- Because of Simpson's paradox where Overall and subgroups trends different.
+- Because of Confounding variables
+
+## Causal Machine Learning
+### History
+- `< 1990s`: Establishment of Tranditional Causal Inference (e.g. Causal Digrams, Potential Outcome Framework) Thanks to the Judea Pearl, Donald Rubin
+- `2000s`: Machine Learning and deep learning technology evolved rapidly with the increase in data volume
+- `2010s`: Fusion of Causal Inference and Machine Learning
+    - New Methods such as `Causal Forest`
+    - `EconML` and `CausalML` package got introduced
+
+### Machine Learning Vs Causal ML
+`Supervised Machine Learning`/`SML` focuses on *prediction*, while `Causal Machine Learning` / `Causal Inference` / `CML/CI` focuses on *causality*.
+- `purpose`: SML does **prediction based on correlation** while CML does **estimation of treatment effect**
+- `Question`: SML answers questions like *What will customer buy next?* *What is the probability?* while CML answers questions like *Did the coupon increase sales?* *How much was its impact?*
+- `Variables`: SML maps X (Features: age, gender, coupon availablity) with the Target variable like sales while CML works with X (control variables: age, gender), Z (Treatment Variable: Coupon availablity) and Y (Outcome variable: Sales uplift)
+
+
+
+
+
+
+
+# Reference
+- ["The Book of Why" by Judea Pearl and Dana MacKenzie]()
+- 
 
 
 
