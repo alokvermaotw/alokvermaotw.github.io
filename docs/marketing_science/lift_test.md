@@ -44,9 +44,12 @@
 - `Treatment Effect` = `Potential outcome with treatment` - `Potential outcome without treatment`
 - This is represented by greek letter $\tau$
 - There are 3 Types of Treatment effects.
-    - `Average Treatment Effect` aka ATE $$ \tau ATE = \mathbb{E}[Y(1) - Y(0)] = \mathbb{E}[Y(1)] - \mathbb{E}[Y(0)] $$
-    - `Conditional Average Treatment Effect` aka CATE $$ \tau CATE = \mathbb{E}[Y(1) - Y(0)]|X = \mathbb{E}[Y(1)] - \mathbb{E}[Y(0)|X] $$
-    - `Individual Treatment Effect` aka i $$ \tau i = \mathbb{E}[Yi(1) - Yi(0)] = \mathbb{E}[Yi(1)] - \mathbb{E}[Yi(0)] $$
+    - `Average Treatment Effect` aka ATE 
+    - $$ \tau ATE = \mathbb{E}[Y(1) - Y(0)] = \mathbb{E}[Y(1)] - \mathbb{E}[Y(0)] $$
+    - `Conditional Average Treatment Effect` aka CATE 
+    - $$ \tau CATE = \mathbb{E}[Y(1) - Y(0)]|X = \mathbb{E}[Y(1)] - \mathbb{E}[Y(0)|X] $$
+    - `Individual Treatment Effect` aka i 
+    - $$ \tau i = \mathbb{E}[Yi(1) - Yi(0)] = \mathbb{E}[Yi(1)] - \mathbb{E}[Yi(0)] $$
 
 #### Types of Meta Learners
 

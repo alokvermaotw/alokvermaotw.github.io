@@ -46,6 +46,14 @@ nav:
       - Unsupervised:
           - Clustering:
               - Overview: machine_learning/unsupervised/clustering/clustering.md
+      - CausalML:
+          - Overview: machine_learning/causal/meta_learners.md      
+          - Meta Learners: machine_learning/causal/meta_learners.md
+          - Uplift Modeling: 
+              - Overview: machine_learning/causal/uplift_modeling.md
+              - Uplift Tree: machine_learning/causal/uplift_tree.md
+              - Uplift Random Forest: machine_learning/causal/uplift_rf.md
+              
   - GenAI: 
       - Overview: genai/genai.md
       - LLMs: genai/llms.md
