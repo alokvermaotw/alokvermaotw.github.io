@@ -22,17 +22,7 @@
 - `Simpson's Paradox`: A statistical phenomenon where a trend or relationship between two variables reverses or disappears when the data is combined (aggregated) into a single group, but appears in the opposite direction when the data is broken down into smaller groups.
 - `Confounding Variable`: An unmeasured outside factor that influences both the independent and dependent variables. It distorts the true relationship between them, making it falsely appear that one variable causes another when it does not.
 
-## we have two grups then Why we are not doing [split test](https://alokvermaotw.github.io/marketing_science/split_test/)  
-- Because of limitations or RCT
-- Because of Simpson's paradox where Overall and subgroups trends different.
-- Because of Confounding variables
-
-## Techniques
-### 1. Meta Learners
-- The goal is to measure treatment effect.
-- i.e.: S-learner, T-learner, DML etc
-
-#### Treatment Effect
+## Treatment Effect
 - `Treatment Effect` = `Potential outcome with treatment` - `Potential outcome without treatment`
 - This is represented by greek letter $\tau$
 - There are 3 Types of Treatment effects.
@@ -43,41 +33,14 @@
     - `Individual Treatment Effect` aka i 
     - $$ \tau i = \mathbb{E}[Yi(1) - Yi(0)] = \mathbb{E}[Yi(1)] - \mathbb{E}[Yi(0)] $$
 
-#### Types of Meta Learners
+## we have two grups then Why we are not doing [split test](https://alokvermaotw.github.io/marketing_science/split_test/)  
+- Because of limitations or RCT
+- Because of Simpson's paradox where Overall and subgroups trends different.
+- Because of Confounding variables
 
-| Learner | Approach | Reference | Training Speed (Relative to S Learner) | Defination |
-| --- | --- | --- | --- | --- |
-| S-Learner | Single-Model Approach | Kunzel et al. 2019 | 1x | Uses a single modal for training and prediction of both outcome with treatment and without treatment.
-| T-Learner | Two-Model Approach | Kunzel et al. 2019 | 2x | Uses seperate modal for treatment and control groups.
-| X-Learner | Cross-Fitting Approach | Kunzel et al. 2019 | 5x | 
-| DR-Learner | Doubly Roboust | Kennedy et al. 2020 | 13x |
-| DML | Double Machine Learning | Chernozhukov, Victor, et al. 2019 | 27x |
-
-#### How to select appropriate Meta Learner
-- Step 1. : Start with simple methods to get a baseline.
-- Step 2. : Compare other methods by measuring accuracy Such as MAPE, RMSE and performing refutation for robustness.
-
-### 2. Uplift Modeling
-- Identifies customers who are influenced positively by marketing offers.
-- The goal is to select the right users for targeting
-- i.e.: Uplift tree / Uplift random forest
-
-#### Methods for Uplift modeling
-##### Meta Learners
-- Predicts the outcome with treatment and the outcome without treatment seperately, and then calculate the uplift.
-- ie T-Learner (Two modal approach)
-##### [Decision Tree](https://alokvermaotw.github.io/machine_learning/supervised/classification/decision_tree_classifier.md) Based Methods
-- Directly estimates the uplift
-- ie Uplift-Trees, Uplift Random Forest
-- Some algorithms supports multiple treatment groups (5% coupons, 10% coupons, 15% coupons)
-- Feature Importance
-- While uplift modeling can be implimented with `Meta Learners`, `Decision Tree` based method is a common approach.
-
-#### *Traditional Decision Trees* to *Uplift Tree*
-| Traditional Decision Tree | Uplift Tree |
-| --- | --- |
-|Will the customer make a purchase? (**Prediction**) | Who should we give coupons to? (**Causality**)
-| Just splits in `Yes` or `No` | After spliting in `Yes` and `No` It splits futher `Yes` to `Treated` and `Not Treated` same for `No`.
+## Techniques
+### 1. [Meta Learners]()
+### 2. [Uplift Modeling]()
 
 
 ## Useful libraries
