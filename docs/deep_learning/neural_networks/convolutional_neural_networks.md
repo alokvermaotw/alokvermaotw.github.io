@@ -1,0 +1,9 @@
+- Types of Neural Network that are designed for processing grid-like data, such as images. 
+- They are made up of multiple layers, including convolutional layers, pooling layers, and fully-connected layers, which each playing a different and interconnected part in processing data and simplifying outputs.
+- Commonly used for 
+	- Image and Video Recognition such as
+		- Object detection
+		- facial recognition
+		- Self driving cars
+		-  classify images of cats and dogs based on their features.
+- In a CNN, the input data is processed through multiple convolutional layers, which apply filters to the input and extract features. The output of the convolutional layers is then passed through pooling layers, which downsample the data and reduce its dimensionality. Finally, the output is passed through fully connected layers, which perform the final classification or prediction.

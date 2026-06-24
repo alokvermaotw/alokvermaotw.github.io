@@ -1,0 +1,10 @@
+- Designed to processing sequential data such as text and speech.
+- Made up of Recurrent Neurons, which allow the network to maintain a 'memory' of previous inputs.
+- Commonly used for 
+	- Natural Language Processing tasks such as 
+		- Language Translation
+		- Text Generation.
+	- Speech Recognition
+	- Time Series Predictions
+	- text-to-speech applications
+- allow connections to flow in multiple directions, instead of just from left to right.

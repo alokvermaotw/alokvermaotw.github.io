@@ -1,0 +1,3 @@
+- a type of neural network that is used for unsupervised learning, which means that they do not require labeled data to make predictions. 
+- Autoencoder neural networks work by compressing the input data into a lower-dimensional representation and then reconstructing it back into the original format. This allows them to identify the most important features of the input data.
+- Autoencoder neural networks are commonly used in applications such as Feature Extraction, Data Compression, Image Denoising, and Anomaly Detection. For example, [NASA uses an autoencoder algorithm](https://c3.ndc.nasa.gov/dashlink/static/media/publication/PID4205935.pdf) to detect anomalies in spacecraft sensor data.

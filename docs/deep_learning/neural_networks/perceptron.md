@@ -1,0 +1,9 @@
+- One of the earliest type of neural network.
+- First implemented in 1958 by Frank Rosenbalt
+- A single layer neural network that takes a set of inputs, processes them and produces an output.
+- Can be used for tasks like
+	- Image rocognization
+	- signal processing
+	- control systems
+- Drawback of this neural network is this can only solve problems where data can be separated into two categories using one straight line, known as _Linearly separated problems_.
+- Works by applying weights to the input data and then summing them up. The sum then passed through an [[Activation Function]] to produce an output.

@@ -1,0 +1,14 @@
+- Type of [[Recurrent Neural Networks]] designed to handle long-term dependencies.
+- It is composed of memory cells, input gates, output gates, and forget gates.
+- Used in 
+	- Natural Language Processing such as 
+		- Speech Recognition
+		- Text Translation
+		- Sentiment Analysis
+	- Image Recognition
+		- Recognize objects
+		- scenes within image
+		- handwriting recognition
+	- other applications where long-term memory is important.
+- Work by allowing information to flow through the memory cells over time.
+- The input gate determines which information should be stored in the memory cells, while the forget gate determines which information should be removed. The output gate then determines which information should be passed on to the next layer. This allows the network to remember important information over long periods of time and to selectively forget irrelevant information.

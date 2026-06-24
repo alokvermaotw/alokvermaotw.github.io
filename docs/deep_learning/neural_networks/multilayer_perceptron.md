@@ -1,0 +1,4 @@
+- MLP
+- Contains multiple layer of [[Perceptron]].
+- A Type of [[Feedforward Neural Network]] commonly used for [[Classification]] task. but can also be used for Image Recognition, Speech Recognition, Time Series Analysis, and Natural Language Processing
+- Each layer consist of Multiple layer of [[Perceptron]] and the output of one layer is fed into the next layer as input

@@ -1,0 +1,14 @@
+- Most basic type of neural network
+- Consist of
+	- an input layer
+	- one or more hidden layer
+	- on output layer
+- The data flows in forward direction from input to output
+- Used of tasks like:
+	- Image and Speech recognition
+	- Natural Language Processing
+	- Predictive Modeling
+- Application example:
+	- a feedforward neural network could be used to predict the likelihood of a customer churning based on their past behavior.
+
+- In a feedforward neural network, the input data is passed through the network, and each neuron in the hidden layer(s) performs a weighted sum of the inputs, applies an activation function, and passes the output to the next layer. The weights and biases of the neurons are adjusted during training to minimize the error between the predicted output and the actual output.

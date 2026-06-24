@@ -1,0 +1,8 @@
+- a type of neural network that allows multiple networks to be combined and work together to solve complex problems.
+- In a modular network, each module is a separate network that is designed to solve a specific subproblem. The outputs from each module are then combined to provide a final output.
+- used to solve a wide range of complex problems, including 
+	- _Computer Vision_, a modular network may be used to detect different objects in an image, with each module responsible for detecting a specific type of object. The outputs from each module are then combined to provide a final classification of the image.
+	- speech recognition
+	- robotics.
+- One advantage of MNNs is that they allow for flexibility and modularity in the design of neural networks, making it easier to build complex systems by combining simpler modules. This makes it possible to develop large-scale systems with multiple modules, each solving a specific subproblem.
+- Another advantage of MNNs is that they can be more robust than traditional neural networks, as each module can be designed to handle a specific type of input or noise. This means that even if one module fails, the overall system can still function, as other modules can take over.
