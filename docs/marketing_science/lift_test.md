@@ -30,11 +30,29 @@
     - `EconML` and `CausalML` package got introduced
 
 ### Machine Learning Vs Causal ML
-`Supervised Machine Learning`/`SML` focuses on *prediction*, while `Causal Machine Learning` / `Causal Inference` / `CML/CI` focuses on *causality*.
+- `Supervised Machine Learning`/`SML` focuses on *prediction*, while `Causal Machine Learning` / `Causal Inference` / `CML/CI` focuses on *causality*.
 - `purpose`: SML does **prediction based on correlation** while CML does **estimation of treatment effect**
 - `Question`: SML answers questions like *What will customer buy next?* *What is the probability?* while CML answers questions like *Did the coupon increase sales?* *How much was its impact?*
 - `Variables`: SML maps X (Features: age, gender, coupon availablity) with the Target variable like sales while CML works with X (control variables: age, gender), Z (Treatment Variable: Coupon availablity) and Y (Outcome variable: Sales uplift)
 
+## Techniques
+### 1. Meta Learners
+- The goal is to measure treatment effect.
+- i.e.: S-learner, T-learner, DML etc
+
+#### Treatment Effect
+- `Treatment Effect` = `Potential outcome with treatment` - `Potential outcome without treatment`
+- This is represented by greek letter $\tau$
+- There are 3 Types of Treatment effects.
+    - `Average Treatment Effect` aka ATE $$ \tau ATE = \mathbb{E}[Y(1) - Y(0)] = \mathbb{E}[Y(1)] - \mathbb{E}[Y(0)] $$
+    - `Conditional Average Treatment Effect` aka CATE $$ \tau CATE = \mathbb{E}[Y(1) - Y(0)]|X = \mathbb{E}[Y(1)] - \mathbb{E}[Y(0)|X] $$
+    - `Individual Treatment Effect` aka i $$ \tau i = \mathbb{E}[Yi(1) - Yi(0)] = \mathbb{E}[Yi(1)] - \mathbb{E}[Yi(0)] $$
+
+
+
+### 2. Uplift Modeling
+- The goal is to select the right users for targeting
+- i.e.: Uplift tree / Uplift random forest
 
 
 
