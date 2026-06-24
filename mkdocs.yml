@@ -35,7 +35,7 @@ theme:
 plugins:
   - search
   - tags
-  - mkdocs-jupyter # integrate Jupyter notebooks just like a markdown file
+#  - mkdocs-jupyter # integrate Jupyter notebooks just like a markdown file
   - mkdocstrings
   - blog
   - social
