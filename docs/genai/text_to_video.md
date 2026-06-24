@@ -1,0 +1,7 @@
+- Text-to-video models aims to generate a video represetation from text input.
+- the input text can be anything from a single sentence to a full script, and the output is a video that corresponds to the input text.
+- Text-to-3d models generate three dimensional objects that correspond to a user's text description (for use in games or other 3d worlds)
+- Application
+	- Video Generation
+	- Video Editing
+	- Game Assets

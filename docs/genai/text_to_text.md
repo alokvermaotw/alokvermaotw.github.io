@@ -1,0 +1,11 @@
+- Text to text models take a natural language input and produce text output.
+- these models are trained to learn the mapping between a pair or texts.
+- Application
+	- Generation
+	- Classification
+	- Summarization
+	- Translation
+	- (Re)Search
+	- Extraction
+	- Clustering
+	- Content Editing/Rewriting

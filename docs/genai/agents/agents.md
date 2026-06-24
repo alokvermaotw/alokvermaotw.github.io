@@ -1,0 +1,4 @@
+- computational tools adept at mimicking human behaviour in an interactive and believable manner.
+- Unlike traditional rule-based AI, generative agents don't just follow a script – they are equipped with the ability to remember, retrieve, reflect, and interact with others while continuously adapting to ever-changing circumstances
+- Introduced in paper[Generative Agents: Interactive Simulacra of Human Behaviour](https://arxiv.org/abs/2304.03442)
+- 

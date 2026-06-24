@@ -3,7 +3,9 @@
 - Provides the solution but explanation???
 - when all you have is a hammer, everything starts to look like a nail
 - Each node essentially is a linear function with slopes Wi and intercepts Bi being multiplied and summed with input variables Xi. There is a weight Wi between each input node and hidden node, and another set of weights between each hidden node and output node. Each hidden and output node gets an additional bias Bi added.
-![[neural_network.png]]
+
+![Neural Networks](../../assets/images/neural_networks.png)
+
 - _In a nutshell, this is a regression just like linear or logistic regression, but with many more parameters to solve for. The weight and bias values are analogous to the m and b, or β1 and β0, parameters in a linear regression. We do use stochastic gradient descent and minimize loss just like linear regression, but we need an additional tool called backpropagation to untangle the weight Wi and bias Bi values and calculate their partial derivatives using the chain rule. We will get to that later in this chapter, but for now let’s assume we have the weight and bias values optimized. We need to talk about activation functions first._
 - Layers of Neural Networks
 	- Input Layer 

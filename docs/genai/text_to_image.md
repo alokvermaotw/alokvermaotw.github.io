@@ -1,0 +1,5 @@
+- Text-to-Image models are relatively new and are trained on a large set of images, each captioned with a short text description.
+- Diffusion is one method used to achieve this.
+- Application
+	- Image generation
+	- Image editing

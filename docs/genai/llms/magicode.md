@@ -1,0 +1,7 @@
+- Family of fully open-source coding LLMs with less than 7B parameters
+- _Magicoder-CL_ is based on [[CodeLlama]] model while _Magicoder-DS_ is based on [[DeepSeek-Coder]]
+- Both _Magicoder-CL_ and _Magicoder-DS_ are trained on 75K synthetic instructions data using _OSS-INSTRUCT_.
+- _OSS-INSTRUCT_: is a novel approach to enlightening LLMs with open-source code snippets to generate high-quality instruction data for code.
+- Magicoder models outperforms popular LLMs like [[ChatGPT]], [[CodeLlama]] etc
+- Magicoder models are fully open-source and available on HF hub
+- 

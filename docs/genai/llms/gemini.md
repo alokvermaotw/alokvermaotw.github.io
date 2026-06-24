@@ -1,0 +1,7 @@
+- The first model to outperform human experts on MMLU (Massive Multitaks Language Understanding)
+- beats OpenAI's GPT-4 by 3.6% on MMLU Benchmark
+- Built from the ground up for multimodality across text, images, video, audio and code
+- Available in Three Versions
+	- Gemini Ultra: Largest and most capable model for highly complex tasks
+	- Gemini Pro: best model for scaling across a wide range of tasks.
+	- Gemini Nano: most efficient model for on-device tasks.

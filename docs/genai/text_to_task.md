@@ -1,0 +1,7 @@
+- Text-to-task models are trained to perform a specific task or action based on text input.
+- This task can be wide range of options such as answering a question, performing a search, making a prediction, or taking some sort of action.
+- For example, a text to task model could be trained to navigate web UI or make changes to a doc through the GUI.
+- Application
+	- Software agents
+	- Virtual assistants
+	- Automation
