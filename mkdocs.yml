@@ -43,4 +43,5 @@ nav:
       - Overview: marketing_science/marketing_science.md
       - Attribution: marketing_science/attribution.md
       - MMM: marketing_science/mmm.md
-      - A/B Testing: marketing_science/ab_testing.md
+      - Split Test: marketing_science/split_test.md
+      - Lift Studies: marketing_science/lift_test.md
