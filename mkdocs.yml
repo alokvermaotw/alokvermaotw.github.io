@@ -16,10 +16,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - GenAI: 
-      - Overview: genai/genai.md
-      - LLMs: genai/llms.md
-      - Prompt Engineering: genai/prompt_engineering.md
   - DevOps:
       - Overview: devops/devops.md
       - CI/CD: 
@@ -39,6 +35,21 @@ nav:
       - Overview: analytics/analytics.md
       - Descriptive: analytics/descriptive.md
       - Inferential: analytics/inferential.md
+  - Machine Learning:
+      - Overview: machine_learning/machine_learning.md
+      - Supervised:
+          - Regression: 
+              - Overview: machine_learning/Supervised/regression.md
+          - Classification: 
+              - Overview: machine_learning/Supervised/Classification.md
+              - Random Tree Classifier: machine_learning/Supervised/Classification.random_tree_classifier.md
+      - Unsupervised:
+          - Clustering:
+              - Overview: machine_learning/unsupervised/clustering/clustering.md
+  - GenAI: 
+      - Overview: genai/genai.md
+      - LLMs: genai/llms.md
+      - Prompt Engineering: genai/prompt_engineering.md
   - Marketing Science: 
       - Overview: marketing_science/marketing_science.md
       - Attribution: marketing_science/attribution.md

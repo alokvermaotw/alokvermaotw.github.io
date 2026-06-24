@@ -63,8 +63,23 @@
 - Step 2. : Compare other methods by measuring accuracy Such as MAPE, RMSE and performing refutation for robustness.
 
 ### 2. Uplift Modeling
+- Identifies customers who are influenced positively by marketing offers.
 - The goal is to select the right users for targeting
 - i.e.: Uplift tree / Uplift random forest
+
+#### Methods for Uplift modeling
+##### Meta Learners
+- Predicts the outcome with treatment and the outcome without treatment seperately, and then calculate the uplift.
+- ie T-Learner (Two modal approach)
+##### Decision Tree Based Methods
+- Directly estimates the uplift
+- ie Uplift-Trees, Uplift Random Forest
+- Some algorithms supports multiple treatment groups (5% coupons, 10% coupons, 15% coupons)
+- Feature Importance
+- While uplift modeling can be implimented with `Meta Learners`, `Decision Tree` based method is a common approach.
+
+#### *Traditional Decision Trees* to *Uplift Tree*
+
 
 ## Useful libraries
 ### EconML
