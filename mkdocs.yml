@@ -83,6 +83,14 @@ nav:
           - Overview: machine_learning/unsupervised/unsupervised.md
           - Clustering:
               - Overview: machine_learning/unsupervised/clustering/clustering.md
+  - Time Series Forecasting:
+      - Overview: time_series_forecasting/time_series_forecasting.md
+      - ARIMA: time_series_forecasting/ARIMA.md
+      - ARIMAX: time_series_forecasting/ARIMAX.md
+      - SARIMA: time_series_forecasting/SARIMA.md
+      - SARIMAX: time_series_forecasting/SARIMAX.md
+      - AutoARIMA: time_series_forecasting/AutoARIMA.md
+      - DeepAR: time_series_forecasting/DeepAR.md
   - CausalML / Causal Inference:
       - Overview: causalML/causalML.md      
       - Meta Learners: causalML/meta_learners.md
