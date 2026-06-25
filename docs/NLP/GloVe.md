@@ -1,0 +1,2 @@
+In 2014, a research team led by Jeffery Pennington at Sandford University Introduced Global Vectors for word representation
+- Use regression model to learn word representation through unsupervised learning
