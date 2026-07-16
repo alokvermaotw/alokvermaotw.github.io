@@ -3,7 +3,7 @@ In the workplace, making incorrect assumptions or evaluations about people can r
 
 So, what is unconscious bias? While there is no perfect or all-encompassing definition, we can aim for a general one that you can see below. Also, in this module, we are discussing unconscious social bias – biases that are related to (groups of) people, not objects or places.
 
-Implicit or unconscious social bias refers to the unconscious attitudes or stereotypes that a person holds about a certain group of people, which influence their attitudes, behaviours and decision-making.
+`Implicit or unconscious social bias` refers to the unconscious attitudes or stereotypes that a person holds about a certain group of people, which influence their attitudes, behaviours and decision-making.
 
 These biases are formed through our experiences and exposure to cultural messages, and they can operate outside of our conscious awareness, hence us referring to unconscious bias.
 
@@ -70,3 +70,45 @@ Many different sources contribute to how we receive information and form biases 
 
 - Having biases is not the problem - being indifferent about them is. We need to actively be conscious of our attitudes and behaviours, so that we can truly be inclusive. 
 
+## Bias in Society
+- This translates into people being treated differently, and more often than not, unfairly. This happens simply because of who they are - aspects of their identities that they cannot change. When we show preferential treatment to people that are similar to us or that meet our expectations of what we think is 'desirable' or 'good', we are actually being influenced by our biases. At the same time, we are excluding (or discriminating against) others.
+
+### In the UK, it is unlawful to discriminate against anyone on the basis of 9 protected characteristics, which are outlined in the Equality Act 2010.  
+
+| Type | Description |
+| --- | --- |
+| Race | This characteristic offers protection for a person's race, ethnic and national origin, as well as their migrant status. |
+| Religion and Belief | This characteristic refers to a person's religious or spiritual beliefs (or lack thereof). It also offers protection for philosophical beliefs, such as ethical veganism.|
+| Sex | This characteristic refers to a person's binary gender (women and men), protecting against sexist discrimination.|
+| Disability | This characteristic protects disabled people. A person is considered disabled if they have a long-term condition (physical or related to mental health) that impacts their ability to carry out their everyday life without difficulties.|
+| Pregnancy and Maternity | This characteristic offers protection for pregnant people and new parents, including the duration of the pregnancy and the period after they have given birth.|
+| Sexuality | This characteristic protects people from discrimination based on their sexual orientation - their attraction to other people of any gender. |
+| Marriage and Civil Partnership | This characteristic protects people from discrimination regarding their marital/civil partnership status with a person of any gender. |
+| Gender Reassignment | This characteristic protects people who plan to undergo, are undergoing, or have undergone a process of transitioning their gender. In essence, it protects transgender people. |
+| Age | This characteristic protects people of any age. Discrimination based on age or membership to an age group (e.g., 'over 30') is unlawful. |
+
+### Below is how bias can effecct us in the workplace
+- `Recruitment` who we hire
+- `Representation` What our workforce look like
+- `Uniformity` What perspectives, skill and experiences our people have
+- `Belonging` How welcoming and inclusing we are
+- `Mistreatment` How we treat people
+
+
+# UNCONSCIOUS BIAS: Underlying mechanisms
+In this section, we discussed that because we are processing information all the time unconsciously, by making quick associations. We do this because conscious thinking uses more energy, so we use it selectively. Using our unconscious thinking when making important decisions means we are relying on our biases. Often, our assumptions are incorrect.
+
+# UNCONSCIOUS BIAS: Cultural influences
+Biases come from cultural influences that create stereotypes. There are many sources - where we live, what we learn, what media we consume. These social norms and expectations influence all of us, even though we are not aware. Unconscious bias impacts everyone. 
+
+# IMPACTS: Bias in the workplace
+Because bias is fundamentally part of society, we are affected in the workplace, as well. Bias impacts who gets hired and promoted, who receives good feedback, who gets opportunities, and who can feel that they belong. When we don't take action to minimise or eliminate bias, we lose out on talent, underperform, and our community suffers.
+
+# IMPACTS: Bias and managers
+As people managers, bias is especially important. People's relationship with their manager is defining for their experience in the workplace. This means that we have increased responsibility. This is also a great opportunity to model positive behaviours and support others with working inclusively.
+
+# CONSCIOUS INCLUSION: Personal commitments
+Combating biases requires personal commitment. We need to actively seek to learn more about others, reflect on our own behaviour, use inclusive language and change our behaviour. This personal commitment is necessary for changing our culture.
+
+# CONSCIOUS INCLUSION: Working together
+Changing our culture, however, can only happen if we work together. We need to examine the way that we work and assume that bias is already present. Then, we can design with inclusion in mind, working collaboratively and holding ourselves accountable. In this way, we find innovative solutions that improve everyone's experiences. With collaboration, we can change our culture to an inclusive and welcoming environment, where everyone belongs.
